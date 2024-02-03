@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages xmlns="http://chameleon.ibs-qa.ru/schema/web-elements">
+    <Page name="Товары" locator="http://localhost:8080/food">
+        <Button name="Добавить" locator="//div/div/div/div[1]/button"/>
+        <TextInput name="Наименование" locator="//input [@id='name']" isLoaded="true"/>
+    </Page>
+</Pages>
